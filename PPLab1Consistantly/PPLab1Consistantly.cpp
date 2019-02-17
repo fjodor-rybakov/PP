@@ -4,6 +4,7 @@
 #include "pch.h"
 #include <iostream>
 #include <vector>
+#include "time.h"
 
 using namespace std;
 
@@ -39,7 +40,7 @@ void getAdditions() {
 
 int main()
 {
-	int value;
+	/*int value;
 	cout << "Enter pls matrix 3x3" << endl;
 	for (int i = 0; i < n; i++)
 	{
@@ -48,6 +49,10 @@ int main()
 			cin >> value;
 			matrix[i][j] = value;
 		}
-	}
+	}*/
+	int t = clock();
+
 	getAdditions();
+
+	cout << clock() - t << " ms" << endl;
 }
