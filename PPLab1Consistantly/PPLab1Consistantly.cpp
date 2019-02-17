@@ -8,17 +8,6 @@
 
 using namespace std;
 
-/* const int n = 4;
-int matrix[n][n] = {
-	1, -2, 0, 3,
-	6, -4, -3, -1,
-	-1, 7, 9, 4,
-	1, -2, 2, -6
-};*/
-
-/*int n = 0;
-vector<vector<int>> matrix(n, vector<int>(n));*/
-
 int getDeterm(vector<vector<int>> matr, int minorSize) {
 	int sum, mul;
 	sum = 0;
@@ -78,8 +67,10 @@ int getMinor(int k, int l, vector<vector<int>> matrix, int size)
 }
 
 void getAdditions(vector<vector<int>> matrix, int size) {
-	for (int k = 0; k < size; k++) {
-		for (int l = 0; l < size; l++) {
+	for (int k = 0; k < size; k++)
+	{
+		for (int l = 0; l < size; l++)
+		{
 			if ((k + l) % 2 == 0) {
 				cout << getMinor(k, l, matrix, size) << " ";
 			}
