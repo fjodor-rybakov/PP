@@ -19,7 +19,8 @@ DWORD WINAPI ThreadFunc(PVOID pvParam)
 	for (i = 0; i < n; i++)
 	{
 		c[num][i] = 0;
-		for (j = 0; j < n; j++) c[num][i] += a[num][j] * b[j][i];
+		for (j = 0; j < n; j++)
+			c[num][i] += a[num][j] * b[j][i];
 	}
 
 	DWORD dwResult = 0;
