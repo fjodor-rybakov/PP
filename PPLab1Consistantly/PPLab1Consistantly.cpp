@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int getDeterm(vector<vector<int>> matr, int minorSize) {
+int getDeterm(const vector<vector<int>> &matr, int minorSize) {
 	int sum, mul;
 	sum = 0;
 	if (2 == minorSize)
@@ -41,7 +41,7 @@ int getDeterm(vector<vector<int>> matr, int minorSize) {
 	return sum;
 }
 
-int getMinor(int k, int l, vector<vector<int>> matrix, int size)
+int getMinor(int k, int l, const vector<vector<int>> &matrix, int size)
 {
 	int minorSize = size - 1, x = 0, y = 0;
 	vector<vector<int>> minor(minorSize, vector<int>(minorSize));
@@ -66,22 +66,28 @@ int getMinor(int k, int l, vector<vector<int>> matrix, int size)
 	return getDeterm(minor, minorSize);
 }
 
-void getAdditions(vector<vector<int>> matrix, int size) {
+void printMatrix(const vector<vector<int>>& matrix) {
+	for (auto i : matrix) {
+		for (int j : i) {
+			cout << j << " ";
+		}
+		cout << endl;
+	}
+}
+
+vector<vector<int>> getAdditions(const vector<vector<int>>& matrix, int size) {
+	vector<vector<int>> result(size, vector<int>(size));
+	int determ = 0;
 	for (int k = 0; k < size; k++)
 	{
 		for (int l = 0; l < size; l++)
 		{
-			if ((k + l) % 2 == 0) {
-				cout << getMinor(k, l, matrix, size) << " ";
-			}
-			else
-			{
-				cout << -getMinor(k, l, matrix, size) << " ";
-			}
+			determ = getMinor(k, l, matrix, size);
+			result[k][l] = ((k + l) % 2 == 0) ? determ : -determ;
 		}
-
-		cout << endl;
 	}
+
+	return result;
 }
 
 int main()
@@ -102,6 +108,7 @@ int main()
 	}
 
 	int t = clock();
-	getAdditions(matrix, size);
+	matrix = getAdditions(matrix, size);
 	cout << clock() - t << " ms" << endl;
+	printMatrix(matrix);
 }
