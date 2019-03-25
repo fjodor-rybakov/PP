@@ -133,5 +133,5 @@ int main()
 	matrix = getAdditions(baseMatrix, size);
 	cout << clock() - t << " ms" << endl;
 
-	printMatrix(matrix);
+	// printMatrix(matrix);
 }

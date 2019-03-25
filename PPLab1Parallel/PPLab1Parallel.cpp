@@ -165,9 +165,11 @@ int main(int argc, char* argv[])
 		cout << "Count threads always greater then 1" << endl;
 		return 1;
 	}
+	HANDLE process = GetCurrentProcess();
+	SetProcessAffinityMask(process, 0b0001);
 	size = readMatrix();
 	int t = clock();
 	getAdditions(size, countThreads);
 	cout << clock() - t << " ms" << endl;
-	printMatrix(result);
+	// printMatrix(result);
 }
