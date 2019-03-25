@@ -8,6 +8,8 @@
 #include <stdio.h>
 #include <conio.h>
 #include "time.h"
+#include <fstream>
+#include "string"
 
 using namespace std;
 
@@ -123,6 +125,35 @@ void printMatrix(const vector<vector<int>>& matrix) {
 	}
 }
 
+int readMatrix() {
+	string inputFileName = "input.txt";
+	ifstream input(inputFileName);
+
+	if (!input.is_open()) {
+		cerr << "Error open " << inputFileName << " file" << endl;
+		exit(1);
+	}
+
+	int size = 0, value = 0, row = 0, col = 0;
+	input >> size;
+	vector<vector<int>> matrix(size, vector<int>(size));
+
+	while (input >> value)
+	{
+		matrix[row][col] = value;
+		col++;
+		if (col % size == 0)
+		{
+			col = 0;
+			row++;
+		}
+	}
+
+	baseMatrix = matrix;
+
+	return size;
+}
+
 int main(int argc, char* argv[])
 {
 	if (argc != 2) {
@@ -134,23 +165,7 @@ int main(int argc, char* argv[])
 		cout << "Count threads always greater then 1" << endl;
 		return 1;
 	}
-	cout << "Enter pls size matrix" << endl;
-	cin >> size;
-	if (countThreads > size) {
-		countThreads = size;
-	}
-	vector<vector<int>> matrix(size, vector<int>(size));
-	cout << "Enter pls matrix " << size << "x" << size << endl;
-
-	for (int i = 0; i < size; i++)
-	{
-		for (int j = 0; j < size; j++)
-		{
-			cin >> value;
-			matrix[i][j] = value;
-		}
-	}
-	baseMatrix = matrix;
+	size = readMatrix();
 	int t = clock();
 	getAdditions(size, countThreads);
 	cout << clock() - t << " ms" << endl;

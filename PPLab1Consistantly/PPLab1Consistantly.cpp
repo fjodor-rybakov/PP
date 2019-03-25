@@ -5,8 +5,12 @@
 #include <iostream>
 #include <vector>
 #include "time.h"
+#include <fstream>
+#include "string"
 
 using namespace std;
+
+vector<vector<int>> baseMatrix;
 
 int getDeterm(const vector<vector<int>> &matr, int minorSize) {
 	int sum, mul;
@@ -90,25 +94,44 @@ vector<vector<int>> getAdditions(const vector<vector<int>>& matrix, int size) {
 	return result;
 }
 
-int main()
-{
-	int value = 0, size = 0;
-	cout << "Enter pls size matrix" << endl;
-	cin >> size;
-	vector<vector<int>> matrix(size, vector<int>(size));
-	cout << "Enter pls matrix " << size << "x" << size << endl;
+int readMatrix() {
+	string inputFileName = "input.txt";
+	ifstream input(inputFileName);
 
-	for (int i = 0; i < size; i++)
+	if (!input.is_open()) {
+		cerr << "Error open " << inputFileName << " file" << endl;
+		exit(1);
+	}
+
+	int size = 0, value = 0, row = 0, col = 0;
+	input >> size;
+	vector<vector<int>> matrix(size, vector<int>(size));
+
+	while (input >> value)
 	{
-		for (int j = 0; j < size; j++)
+		matrix[row][col] = value;
+		col++;
+		if (col % size == 0)
 		{
-			cin >> value;
-			matrix[i][j] = value;
+			col = 0;
+			row++;
 		}
 	}
 
+	baseMatrix = matrix;
+
+	return size;
+}
+
+int main()
+{
+	int value = 0, size = 0;
+	size = readMatrix();
+	vector<vector<int>> matrix;
+
 	int t = clock();
-	matrix = getAdditions(matrix, size);
+	matrix = getAdditions(baseMatrix, size);
 	cout << clock() - t << " ms" << endl;
+
 	printMatrix(matrix);
 }
