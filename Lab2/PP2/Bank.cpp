@@ -2,10 +2,12 @@
 
 using namespace std;
 
-CBank::CBank()
+CBank::CBank(int primitive)
 {
 	m_clients = std::vector<CBankClient>();
 	m_totalBalance = 0;
+	m_primitive = SynchronousPrimitive(primitive);
+	InitializeCriticalSection(&csUpdateBalance);
 }
 
 
@@ -35,6 +37,7 @@ void CBank::SetClientBalanceById(int clientId, int value) {
 
 void CBank::UpdateClientBalance(CBankClient &client, int value)
 {
+	EnableSynchronous();
 	int totalBalance = GetTotalBalance();
 	std::cout << "Client " << client.GetId() << " initiates reading total balance. Total = " << totalBalance << "." << std::endl;
 	
@@ -53,6 +56,7 @@ void CBank::UpdateClientBalance(CBankClient &client, int value)
 	}
 
 	SetTotalBalance(totalBalance);
+	DisableSynchronous();
 }
 
 vector<CBankClient> CBank::GetTotalClients() {
@@ -75,4 +79,30 @@ void CBank::SomeLongOperations()
 {
 	// TODO
 	Sleep(1000);
+}
+
+SynchronousPrimitive CBank::GetPrimitive() {
+	return m_primitive;
+}
+
+void CBank::EnableSynchronous() {
+	if (CBank::GetPrimitive() == SynchronousPrimitive::CriticalSection) {
+		EnterCriticalSection(&csUpdateBalance);
+	}
+	else if (CBank::GetPrimitive() == SynchronousPrimitive::Mutex) {
+		mutexUpdateBalance.lock();
+	}
+}
+
+void CBank::DisableSynchronous() {
+	if (CBank::GetPrimitive() == SynchronousPrimitive::CriticalSection) {
+		LeaveCriticalSection(&csUpdateBalance);
+	}
+	else if (CBank::GetPrimitive() == SynchronousPrimitive::Mutex) {
+		mutexUpdateBalance.unlock();
+	}
+}
+
+CBank::~CBank() {
+	DeleteCriticalSection(&csUpdateBalance);
 }

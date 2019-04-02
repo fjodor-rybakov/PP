@@ -2,24 +2,45 @@
 #include <iostream>
 #include <vector>
 #include <map>
-
+#include <mutex>
 #include "BankClient.h"
+
+enum SynchronousPrimitive {
+	CriticalSection,
+	Mutex
+};
+
+
+using namespace std;
 
 class CBank
 {
 public:
-	CBank();
+	CBank(int primitive);
+	~CBank();
+
 	CBankClient* CreateClient();
 	void UpdateClientBalance(CBankClient& client, int value);
-	std::vector<CBankClient>GetTotalClients();
+	vector<CBankClient>GetTotalClients();
+
 	int GetTotalBalance();
 	int GetClientBalanceById(int clientId);
 	void SetClientBalanceById(int clientId, int value);
 
+	SynchronousPrimitive GetPrimitive();
+
 private:
-	std::vector<CBankClient> m_clients;
+	vector<CBankClient> m_clients;
 	int m_totalBalance;
-	std::map<int, int> clientAccountBalance;
+	map<int, int> clientAccountBalance;
+
+	SynchronousPrimitive m_primitive;
+
+	void EnableSynchronous();
+	void DisableSynchronous();
+
+	CRITICAL_SECTION csUpdateBalance;
+	mutex mutexUpdateBalance;
 
 	void SetTotalBalance(int value);
 	void SomeLongOperations();

@@ -8,11 +8,16 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-	CBank* bank = new CBank();
-	int clientCount = 2;
-	if (argc == 2) {
-		clientCount = atoi(argv[1]);
+	int clientCount = 2, primitive = 0;
+
+	if (argc != 3) {
+		cerr << "Incorrect set params: PP2.exe <count clients> <number synchronous primitive>" << endl;
+		return 1;
 	}
+	clientCount = atoi(argv[1]);
+	primitive = atoi(argv[2]);
+	CBank* bank = new CBank(primitive);
+
 	for (int i = 0; i < clientCount; i++) {
 		CBankClient* client1 = bank->CreateClient();
 	}
