@@ -1,9 +1,12 @@
 
-Debug
-Debug/*
+Lab1/Debug
+Lab1/Debug/*
 
-.vs
-.vs/*
+Lab1/.vs
+Lab1/.vs/*
 
-x64
-x64/*
+Lab2/.vs
+Lab2/.vs/*
+
+Lab1/x64
+Lab1/x64/*
