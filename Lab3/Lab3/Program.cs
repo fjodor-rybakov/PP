@@ -49,7 +49,7 @@ namespace Lab3
             watch.Stop();
             var elapsedMs = watch.ElapsedMilliseconds;
 
-            Console.WriteLine("Pi: " + _pi + ", Work time: " + elapsedMs + "ms");
+            Console.WriteLine("Pi: " + _pi + ", Work time: " + elapsedMs + "ms, Type: " + TryType.TryEnter);
             _pi = 0;
 
             watch = System.Diagnostics.Stopwatch.StartNew();
@@ -60,7 +60,7 @@ namespace Lab3
             watch.Stop();
             elapsedMs = watch.ElapsedMilliseconds;
 
-            Console.WriteLine("Pi: " + _pi + ", Work time: " + elapsedMs + "ms");
+            Console.WriteLine("Pi: " + _pi + ", Work time: " + elapsedMs + "ms, Type: " + TryType.Enter);
         }
 
         private static IEnumerable<Thread> CreateThreads(int countSteps, string tryType)

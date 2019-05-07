@@ -1,0 +1,6 @@
+C:\Users\fedor\source\repos\PPLab1\Lab3\Lab3\bin\Release\Lab3.exe
+C:\Users\fedor\source\repos\PPLab1\Lab3\Lab3\bin\Release\Lab3.pdb
+C:\Users\fedor\source\repos\PPLab1\Lab3\Lab3\obj\Release\Lab3.csprojAssemblyReference.cache
+C:\Users\fedor\source\repos\PPLab1\Lab3\Lab3\obj\Release\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\fedor\source\repos\PPLab1\Lab3\Lab3\obj\Release\Lab3.exe
+C:\Users\fedor\source\repos\PPLab1\Lab3\Lab3\obj\Release\Lab3.pdb
