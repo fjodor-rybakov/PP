@@ -16,8 +16,8 @@ namespace Lab3.CriticalSection
         public void Enter()
         {
             var numAttempt = 0;
-            if (Mut.WaitOne()) return;
-            while (!Mut.WaitOne())
+            if (Mut.WaitOne(0, false)) return;
+            while (!Mut.WaitOne(0, false))
             {
                 numAttempt++;
                 if (numAttempt != _spinCount) continue;
@@ -30,8 +30,8 @@ namespace Lab3.CriticalSection
         {
             var numAttempt = 0;
             var startTime = DateTime.Now.Millisecond;
-            if (Mut.WaitOne()) return true;
-            while (!Mut.WaitOne())
+            if (Mut.WaitOne(0, false)) return true;
+            while (!Mut.WaitOne(0, false))
             {
                 numAttempt++;
                 if (DateTime.Now.Millisecond >= startTime + timeout) return false;
