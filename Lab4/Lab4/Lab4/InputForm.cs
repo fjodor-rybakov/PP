@@ -26,10 +26,10 @@ namespace Lab4
             return tbEdit;
         }
 
-        public TableLayoutPanel Panel { get; private set; }
+        public TableLayoutPanel Panel { get; }
 
         public List<TextBox> TextBoxes => _textBoxes.ToList();
 
-        private List<TextBox> _textBoxes;
+        private readonly List<TextBox> _textBoxes;
     }
 }

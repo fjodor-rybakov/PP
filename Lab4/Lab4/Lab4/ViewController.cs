@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Lab4.Services;
@@ -12,11 +14,10 @@ namespace Lab4
     {
         private readonly Transport _transport = new Transport();
         
-        private async void GetAllValues()
+        private async Task GetAllValues()
         {
             var pathDataCurrencies = $"../../Files/{Store.OutputFileName}.txt";
-
-            var acceptCurrencies = GetAcceptCurrencies();
+            var acceptCurrencies = await GetAcceptCurrencies();
             var data = await _transport.GetCurrenciesData();
             var isFilter = acceptCurrencies != null;
 
@@ -29,15 +30,17 @@ namespace Lab4
                     await writer.WriteLineAsync($"{item.Value["Nominal"]} {item.Key} по курсу {item.Value["Value"]}");
                 }
             }
-
-            MessageBox.Show(@"Calculated!");
         }
 
-        private List<string> GetAcceptCurrencies()
+        private async Task<List<string>> GetAcceptCurrencies()
         {
             var pathAcceptCurrencies = $"../../Files/{Store.InputFileName}.json";
-            return !File.Exists(pathAcceptCurrencies) ? null : 
-                JsonConvert.DeserializeObject<List<string>>(File.ReadAllText(pathAcceptCurrencies));
+            if (!File.Exists(pathAcceptCurrencies)) return null;
+            using (var reader = new StreamReader(pathAcceptCurrencies))
+            {
+                var file = await reader.ReadToEndAsync();
+                return JsonConvert.DeserializeObject<List<string>>(file);
+            }
         }
         
         public void OnChangeCountIteration(object sender, KeyEventArgs e)
@@ -63,9 +66,21 @@ namespace Lab4
             Store.OutputFileName = value.Text;
         }
         
-        public void OkButtonMouseClick(object sender, System.EventArgs e)
+        public async void OkButtonMouseClick(object sender, System.EventArgs e)
         {
-            GetAllValues();
+            var elapsedMs = new List<long>();
+            for (var i = 0; i < Store.CountIteration; i++)
+            {
+                var watch = Stopwatch.StartNew();
+
+                await GetAllValues();
+                
+                watch.Stop();
+                elapsedMs.Add(watch.ElapsedMilliseconds);
+            }
+            MessageBox.Show(string.Join("\n", elapsedMs.Select(
+                (time, index) => index + 1 + @": Work time: " + time + @"ms"))
+            );
         }
     }
 }

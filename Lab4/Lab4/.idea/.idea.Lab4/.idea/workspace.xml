@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bdb55ba-7dfb-49a2-b2ca-d111446c1360" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab4/Files/accept_currencies.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab4/InputForm.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab4/Services/Transport.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab4/Store.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab4/ViewController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/InputForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/InputForm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/View.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/ViewController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/ViewController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/Lab4/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding>
                 <marker date="1558811004598" expanded="true" signature="6:41" ph="..." />
                 <marker date="1558811004598" expanded="true" signature="57:411" ph="{...}" />
@@ -38,39 +37,61 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab4/View.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="68">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
               <folding>
-                <marker date="1558814513847" expanded="true" signature="6:50" ph="..." />
-                <marker date="1558814513847" expanded="true" signature="66:1432" ph="{...}" />
-                <marker date="1558814513847" expanded="true" signature="110:1430" ph="{...}" />
-                <marker date="1558814513847" expanded="true" signature="227:338" ph="{...}" />
-                <marker date="1558814513847" expanded="true" signature="383:1132" ph="{...}" />
-                <marker date="1558814513847" expanded="true" signature="1169:1424" ph="{...}" />
+                <marker date="1558814927578" expanded="true" signature="43:1409" ph="{...}" />
+                <marker date="1558814927578" expanded="true" signature="87:1407" ph="{...}" />
+                <marker date="1558814927578" expanded="true" signature="204:315" ph="{...}" />
+                <marker date="1558814927578" expanded="true" signature="360:1109" ph="{...}" />
+                <marker date="1558814927578" expanded="true" signature="1146:1401" ph="{...}" />
               </folding>
             </state>
           </provider>
           <provider editor-type-id="WinFormsEditor" />
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab4/View.Designer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+              <folding>
+                <marker date="1558808410326" expanded="true" signature="6:143" ph="..." />
+                <marker date="1558808410326" expanded="true" signature="159:1501" ph="{...}" />
+                <marker date="1558808410326" expanded="true" signature="184:1499" ph="{...}" />
+                <marker date="1558808410326" expanded="true" signature="199:285" ph="/// Обязательная переменная конструктора. ... " />
+                <marker date="1558808410326" expanded="true" signature="363:558" ph="/// Освободить все используемые ресурсы. ... " />
+                <marker date="1558808410326" expanded="true" signature="614:788" ph="{...}" />
+                <marker date="1558808410326" expanded="true" signature="675:741" ph="{...}" />
+                <marker date="1558808410326" expanded="true" signature="798:1493" ph="Код, автоматически созданный конструктором форм Windows" />
+                <marker date="1558808410326" expanded="true" signature="871:1040" ph="/// Требуемый метод для поддержки конструктора — не изменяйте  ... " />
+                <marker date="1558808410326" expanded="true" signature="1083:1473" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab4/ViewController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="130">
+              <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
               <folding>
-                <marker date="1558814513938" expanded="true" signature="6:180" ph="..." />
-                <marker date="1558814513938" expanded="true" signature="196:2321" ph="{...}" />
-                <marker date="1558814513938" expanded="true" signature="230:2319" ph="{...}" />
-                <marker date="1558814513938" expanded="true" signature="352:1128" ph="{...}" />
-                <marker date="1558814513938" expanded="true" signature="699:1072" ph="{...}" />
-                <marker date="1558814513938" expanded="true" signature="819:1058" ph="{...}" />
-                <marker date="1558814513938" expanded="true" signature="1180:1447" ph="{...}" />
-                <marker date="1558814513938" expanded="true" signature="1530:1812" ph="{...}" />
-                <marker date="1558814513938" expanded="true" signature="1621:1715" ph="{...}" />
-                <marker date="1558814513938" expanded="true" signature="1888:1996" ph="{...}" />
-                <marker date="1558814513938" expanded="true" signature="2073:2182" ph="{...}" />
-                <marker date="1558814513938" expanded="true" signature="2265:2313" ph="{...}" />
+                <marker date="1558818058478" expanded="true" signature="6:225" ph="..." />
+                <marker date="1558818058478" expanded="true" signature="241:2932" ph="{...}" />
+                <marker date="1558818058478" expanded="true" signature="275:2930" ph="{...}" />
+                <marker date="1558818058478" expanded="true" signature="397:1132" ph="{...}" />
+                <marker date="1558818058478" expanded="true" signature="749:1122" ph="{...}" />
+                <marker date="1558818058478" expanded="true" signature="869:1108" ph="{...}" />
+                <marker date="1558818058478" expanded="true" signature="1196:1595" ph="{...}" />
+                <marker date="1558818058478" expanded="true" signature="1438:1585" ph="{...}" />
+                <marker date="1558818058478" expanded="true" signature="1678:1960" ph="{...}" />
+                <marker date="1558818058478" expanded="true" signature="1769:1863" ph="{...}" />
+                <marker date="1558818058478" expanded="true" signature="2036:2144" ph="{...}" />
+                <marker date="1558818058478" expanded="true" signature="2221:2330" ph="{...}" />
+                <marker date="1558818058478" expanded="true" signature="2419:2924" ph="{...}" />
+                <marker date="1558818058478" expanded="true" signature="2534:2756" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -79,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab4/Files/data_currencies.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="51">
+              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -89,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/Lab4/Store.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
               <folding>
                 <marker date="1558809608132" expanded="true" signature="14:230" ph="{...}" />
                 <marker date="1558809608132" expanded="true" signature="46:228" ph="{...}" />
@@ -101,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab4/Services/Transport.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="76" lean-forward="true" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+            <state relative-caret-position="170">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <marker date="1558808817806" expanded="false" signature="6:107" ph="..." />
                 <marker date="1558808817806" expanded="true" signature="132:709" ph="{...}" />
@@ -116,14 +137,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab4/InputForm.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="51">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
-                <marker date="1558811700453" expanded="true" signature="6:80" ph="..." />
-                <marker date="1558811700453" expanded="true" signature="96:973" ph="{...}" />
-                <marker date="1558811700453" expanded="true" signature="132:971" ph="{...}" />
-                <marker date="1558811700453" expanded="true" signature="165:330" ph="{...}" />
-                <marker date="1558811700453" expanded="true" signature="399:797" ph="{...}" />
+                <marker date="1558814927649" expanded="true" signature="6:80" ph="..." />
+                <marker date="1558814927649" expanded="true" signature="96:969" ph="{...}" />
+                <marker date="1558814927649" expanded="true" signature="132:967" ph="{...}" />
+                <marker date="1558814927649" expanded="true" signature="165:330" ph="{...}" />
+                <marker date="1558814927649" expanded="true" signature="399:797" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -144,7 +165,9 @@
     <setting file="file://$PROJECT_DIR$/Lab4/InputForm.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab4/ViewController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/24/448e75b1/Control.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab4/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab4/Services/Transport.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab4/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab4/View.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab4/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab4/View.cs" root0="FORCE_HIGHLIGHTING" />
@@ -167,8 +190,8 @@
         <option value="$PROJECT_DIR$/Lab4/Document.cs" />
         <option value="$PROJECT_DIR$/Lab4/Store.cs" />
         <option value="$PROJECT_DIR$/Lab4/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab4/InputForm.cs" />
         <option value="$PROJECT_DIR$/Lab4/View.cs" />
+        <option value="$PROJECT_DIR$/Lab4/InputForm.cs" />
         <option value="$PROJECT_DIR$/Lab4/ViewController.cs" />
       </list>
     </option>
@@ -184,7 +207,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="View.cs" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="FileSystemExplorer">
         <subPane>
           <expand>
@@ -207,41 +258,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Files" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="View.cs" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,12 +315,13 @@
       <workItem from="1558715596599" duration="5822000" />
       <workItem from="1558783222976" duration="10537000" />
       <workItem from="1558804443571" duration="4381000" />
-      <workItem from="1558808857481" duration="5793000" />
+      <workItem from="1558808857481" duration="5940000" />
+      <workItem from="1558814804784" duration="3251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26533000" />
+    <option name="totallyTimeSpent" value="29931000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,13 +334,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1633888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16565809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.45839638" visible="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45839638" visible="true" weight="0.3283582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39966834" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,24 +381,9 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/RPKursach/src/Backend/ShowcaseRequests/Transport.cs" />
-    <entry file="file://$PROJECT_DIR$/Lab4/Properties/AssemblyInfo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1558715309464" expanded="true" signature="6:101" ph="..." />
-            <marker date="1558715309464" expanded="true" signature="103:272" ph="/* Общие сведения об этой сборке предоставляются следующим набором ... */" />
-            <marker date="1558715309464" expanded="true" signature="567:803" ph="/* Установка значения False для параметра ComVisible делает типы в этой сборке невидимыми ... */" />
-            <marker date="1558715309464" expanded="true" signature="993:1331" ph="/* Сведения о версии сборки состоят из указанных ниже четырех значений: ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab4/Form2.cs" />
     <entry file="file://$PROJECT_DIR$/Lab4/Form2.Designer.cs" />
     <entry file="file://$PROJECT_DIR$/Lab4/TextInput.cs" />
-    <entry file="file://$PROJECT_DIR$/Lab4/App.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab4/Assets/AcceptCurrencies.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/24/448e75b1/Control.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -395,10 +399,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Files/data_currencies.json" />
+    <entry file="file://$PROJECT_DIR$/Lab4/Files/data_currencies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Store.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding>
+            <marker date="1558809608132" expanded="true" signature="14:230" ph="{...}" />
+            <marker date="1558809608132" expanded="true" signature="46:228" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Services/Transport.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <marker date="1558808817806" expanded="false" signature="6:107" ph="..." />
+            <marker date="1558808817806" expanded="true" signature="132:709" ph="{...}" />
+            <marker date="1558808817806" expanded="true" signature="161:707" ph="{...}" />
+            <marker date="1558808817806" expanded="true" signature="419:701" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/packages.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/App.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1558715309464" expanded="true" signature="6:101" ph="..." />
+            <marker date="1558715309464" expanded="true" signature="103:272" ph="/* Общие сведения об этой сборке предоставляются следующим набором ... */" />
+            <marker date="1558715309464" expanded="true" signature="567:803" ph="/* Установка значения False для параметра ComVisible делает типы в этой сборке невидимыми ... */" />
+            <marker date="1558715309464" expanded="true" signature="993:1331" ph="/* Сведения о версии сборки состоят из указанных ниже четырех значений: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Properties/Resources.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Properties/Settings.settings">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/InputForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <marker date="1558814927649" expanded="true" signature="6:80" ph="..." />
+            <marker date="1558814927649" expanded="true" signature="96:969" ph="{...}" />
+            <marker date="1558814927649" expanded="true" signature="132:967" ph="{...}" />
+            <marker date="1558814927649" expanded="true" signature="165:330" ph="{...}" />
+            <marker date="1558814927649" expanded="true" signature="399:797" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/View.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding>
+            <marker date="1558814927578" expanded="true" signature="43:1409" ph="{...}" />
+            <marker date="1558814927578" expanded="true" signature="87:1407" ph="{...}" />
+            <marker date="1558814927578" expanded="true" signature="204:315" ph="{...}" />
+            <marker date="1558814927578" expanded="true" signature="360:1109" ph="{...}" />
+            <marker date="1558814927578" expanded="true" signature="1146:1401" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="WinFormsEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <marker date="1558811004598" expanded="true" signature="6:41" ph="..." />
+            <marker date="1558811004598" expanded="true" signature="57:411" ph="{...}" />
+            <marker date="1558811004598" expanded="true" signature="84:409" ph="{...}" />
+            <marker date="1558811004598" expanded="true" signature="99:183" ph="/// Главная точка входа для приложения. ... " />
+            <marker date="1558811004598" expanded="true" signature="230:403" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lab4/View.Designer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="629">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding>
             <marker date="1558808410326" expanded="true" signature="6:143" ph="..." />
             <marker date="1558808410326" expanded="true" signature="159:1501" ph="{...}" />
@@ -414,105 +519,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4/Store.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding>
-            <marker date="1558809608132" expanded="true" signature="14:230" ph="{...}" />
-            <marker date="1558809608132" expanded="true" signature="46:228" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4/Files/data_currencies.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4/Services/Transport.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="76" lean-forward="true" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
-          <folding>
-            <marker date="1558808817806" expanded="false" signature="6:107" ph="..." />
-            <marker date="1558808817806" expanded="true" signature="132:709" ph="{...}" />
-            <marker date="1558808817806" expanded="true" signature="161:707" ph="{...}" />
-            <marker date="1558808817806" expanded="true" signature="419:701" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4/InputForm.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <marker date="1558811700453" expanded="true" signature="6:80" ph="..." />
-            <marker date="1558811700453" expanded="true" signature="96:973" ph="{...}" />
-            <marker date="1558811700453" expanded="true" signature="132:971" ph="{...}" />
-            <marker date="1558811700453" expanded="true" signature="165:330" ph="{...}" />
-            <marker date="1558811700453" expanded="true" signature="399:797" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4/Files/data_currencies.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4/View.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding>
-            <marker date="1558814513847" expanded="true" signature="6:50" ph="..." />
-            <marker date="1558814513847" expanded="true" signature="66:1432" ph="{...}" />
-            <marker date="1558814513847" expanded="true" signature="110:1430" ph="{...}" />
-            <marker date="1558814513847" expanded="true" signature="227:338" ph="{...}" />
-            <marker date="1558814513847" expanded="true" signature="383:1132" ph="{...}" />
-            <marker date="1558814513847" expanded="true" signature="1169:1424" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="WinFormsEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <marker date="1558811004598" expanded="true" signature="6:41" ph="..." />
-            <marker date="1558811004598" expanded="true" signature="57:411" ph="{...}" />
-            <marker date="1558811004598" expanded="true" signature="84:409" ph="{...}" />
-            <marker date="1558811004598" expanded="true" signature="99:183" ph="/// Главная точка входа для приложения. ... " />
-            <marker date="1558811004598" expanded="true" signature="230:403" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab4/ViewController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="130">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding>
-            <marker date="1558814513938" expanded="true" signature="6:180" ph="..." />
-            <marker date="1558814513938" expanded="true" signature="196:2321" ph="{...}" />
-            <marker date="1558814513938" expanded="true" signature="230:2319" ph="{...}" />
-            <marker date="1558814513938" expanded="true" signature="352:1128" ph="{...}" />
-            <marker date="1558814513938" expanded="true" signature="699:1072" ph="{...}" />
-            <marker date="1558814513938" expanded="true" signature="819:1058" ph="{...}" />
-            <marker date="1558814513938" expanded="true" signature="1180:1447" ph="{...}" />
-            <marker date="1558814513938" expanded="true" signature="1530:1812" ph="{...}" />
-            <marker date="1558814513938" expanded="true" signature="1621:1715" ph="{...}" />
-            <marker date="1558814513938" expanded="true" signature="1888:1996" ph="{...}" />
-            <marker date="1558814513938" expanded="true" signature="2073:2182" ph="{...}" />
-            <marker date="1558814513938" expanded="true" signature="2265:2313" ph="{...}" />
+            <marker date="1558818058478" expanded="true" signature="6:225" ph="..." />
+            <marker date="1558818058478" expanded="true" signature="241:2932" ph="{...}" />
+            <marker date="1558818058478" expanded="true" signature="275:2930" ph="{...}" />
+            <marker date="1558818058478" expanded="true" signature="397:1132" ph="{...}" />
+            <marker date="1558818058478" expanded="true" signature="749:1122" ph="{...}" />
+            <marker date="1558818058478" expanded="true" signature="869:1108" ph="{...}" />
+            <marker date="1558818058478" expanded="true" signature="1196:1595" ph="{...}" />
+            <marker date="1558818058478" expanded="true" signature="1438:1585" ph="{...}" />
+            <marker date="1558818058478" expanded="true" signature="1678:1960" ph="{...}" />
+            <marker date="1558818058478" expanded="true" signature="1769:1863" ph="{...}" />
+            <marker date="1558818058478" expanded="true" signature="2036:2144" ph="{...}" />
+            <marker date="1558818058478" expanded="true" signature="2221:2330" ph="{...}" />
+            <marker date="1558818058478" expanded="true" signature="2419:2924" ph="{...}" />
+            <marker date="1558818058478" expanded="true" signature="2534:2756" ph="{...}" />
           </folding>
         </state>
       </provider>

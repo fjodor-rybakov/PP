@@ -1,5 +1,4 @@
 ﻿using System.Windows.Forms;
-using Lab4.Properties;
 
 namespace Lab4
 {
