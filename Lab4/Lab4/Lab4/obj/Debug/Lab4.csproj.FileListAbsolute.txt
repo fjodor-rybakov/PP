@@ -1,0 +1,14 @@
+C:\Users\fedor\source\repos\PPLab1\Lab4\Lab4\Lab4\bin\Debug\Lab4.exe.config
+C:\Users\fedor\source\repos\PPLab1\Lab4\Lab4\Lab4\bin\Debug\Lab4.exe
+C:\Users\fedor\source\repos\PPLab1\Lab4\Lab4\Lab4\bin\Debug\Lab4.pdb
+C:\Users\fedor\source\repos\PPLab1\Lab4\Lab4\Lab4\obj\Debug\Lab4.csprojAssemblyReference.cache
+C:\Users\fedor\source\repos\PPLab1\Lab4\Lab4\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+C:\Users\fedor\source\repos\PPLab1\Lab4\Lab4\Lab4\obj\Debug\Lab4.csproj.GenerateResource.cache
+C:\Users\fedor\source\repos\PPLab1\Lab4\Lab4\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+C:\Users\fedor\source\repos\PPLab1\Lab4\Lab4\Lab4\obj\Debug\Lab4.exe
+C:\Users\fedor\source\repos\PPLab1\Lab4\Lab4\Lab4\obj\Debug\Lab4.pdb
+C:\Users\fedor\source\repos\PPLab1\Lab4\Lab4\Lab4\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fedor\source\repos\PPLab1\Lab4\Lab4\Lab4\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fedor\source\repos\PPLab1\Lab4\Lab4\Lab4\obj\Debug\Lab4.csproj.CopyComplete
+C:\Users\fedor\source\repos\PPLab1\Lab4\Lab4\Lab4\bin\Debug\Chsword.JDynamic.pdb
+C:\Users\fedor\source\repos\PPLab1\Lab4\Lab4\Lab4\bin\Debug\Chsword.JDynamic.dll

@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0bdb55ba-7dfb-49a2-b2ca-d111446c1360" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/Files/accept_currencies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/InputForm.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/Services/Transport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/Store.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/ViewController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab4/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding>
+                <marker date="1558811004598" expanded="true" signature="6:41" ph="..." />
+                <marker date="1558811004598" expanded="true" signature="57:411" ph="{...}" />
+                <marker date="1558811004598" expanded="true" signature="84:409" ph="{...}" />
+                <marker date="1558811004598" expanded="true" signature="99:183" ph="/// Главная точка входа для приложения. ... " />
+                <marker date="1558811004598" expanded="true" signature="230:403" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab4/View.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-297">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding>
+                <marker date="1558813378761" expanded="true" signature="6:50" ph="..." />
+                <marker date="1558813378761" expanded="true" signature="66:1451" ph="{...}" />
+                <marker date="1558813378761" expanded="true" signature="110:1449" ph="{...}" />
+                <marker date="1558813378761" expanded="true" signature="227:338" ph="{...}" />
+                <marker date="1558813378761" expanded="true" signature="383:1132" ph="{...}" />
+                <marker date="1558813378761" expanded="true" signature="1169:1443" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="WinFormsEditor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lab4/ViewController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="28" column="75" lean-forward="true" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+              <folding>
+                <marker date="1558814355846" expanded="true" signature="6:180" ph="..." />
+                <marker date="1558814355846" expanded="true" signature="196:2429" ph="{...}" />
+                <marker date="1558814355846" expanded="true" signature="230:2427" ph="{...}" />
+                <marker date="1558814355846" expanded="true" signature="352:1236" ph="{...}" />
+                <marker date="1558814355846" expanded="true" signature="699:1062" ph="{...}" />
+                <marker date="1558814355846" expanded="true" signature="819:1048" ph="{...}" />
+                <marker date="1558814355846" expanded="true" signature="1288:1555" ph="{...}" />
+                <marker date="1558814355846" expanded="true" signature="1638:1920" ph="{...}" />
+                <marker date="1558814355846" expanded="true" signature="1729:1823" ph="{...}" />
+                <marker date="1558814355846" expanded="true" signature="1996:2104" ph="{...}" />
+                <marker date="1558814355846" expanded="true" signature="2181:2290" ph="{...}" />
+                <marker date="1558814355846" expanded="true" signature="2373:2421" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab4/Files/data_currencies.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab4/Store.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+              <folding>
+                <marker date="1558809608132" expanded="true" signature="14:230" ph="{...}" />
+                <marker date="1558809608132" expanded="true" signature="46:228" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab4/Services/Transport.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" column="76" lean-forward="true" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+              <folding>
+                <marker date="1558808817806" expanded="false" signature="6:107" ph="..." />
+                <marker date="1558808817806" expanded="true" signature="132:709" ph="{...}" />
+                <marker date="1558808817806" expanded="true" signature="161:707" ph="{...}" />
+                <marker date="1558808817806" expanded="true" signature="419:701" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab4/InputForm.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding>
+                <marker date="1558811700453" expanded="true" signature="6:80" ph="..." />
+                <marker date="1558811700453" expanded="true" signature="96:973" ph="{...}" />
+                <marker date="1558811700453" expanded="true" signature="132:971" ph="{...}" />
+                <marker date="1558811700453" expanded="true" signature="165:330" ph="{...}" />
+                <marker date="1558811700453" expanded="true" signature="399:797" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Lab4/Store.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab4/InputForm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab4/ViewController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/24/448e75b1/Control.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab4/Services/Transport.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab4/View.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab4/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab4/View.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab4/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab4/App.config" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Lab4/AcceptCurrencies.json" />
+        <option value="$PROJECT_DIR$/Lab4/Assets/AcceptCurrencies.cs" />
+        <option value="$PROJECT_DIR$/Lab4/Form2.Designer.cs" />
+        <option value="$PROJECT_DIR$/Lab4/TextInput.cs" />
+        <option value="$PROJECT_DIR$/Lab4/accept_currencies.json" />
+        <option value="$PROJECT_DIR$/Lab4/Transport.cs" />
+        <option value="$PROJECT_DIR$/Lab4/Files/data_currencies.json" />
+        <option value="$PROJECT_DIR$/Lab4/Form1.Designer.cs" />
+        <option value="$PROJECT_DIR$/Lab4/Form1.cs" />
+        <option value="$PROJECT_DIR$/Lab4/Services/Transport.cs" />
+        <option value="$PROJECT_DIR$/Lab4/Document.cs" />
+        <option value="$PROJECT_DIR$/Lab4/Store.cs" />
+        <option value="$PROJECT_DIR$/Lab4/Program.cs" />
+        <option value="$PROJECT_DIR$/Lab4/InputForm.cs" />
+        <option value="$PROJECT_DIR$/Lab4/View.cs" />
+        <option value="$PROJECT_DIR$/Lab4/ViewController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="665" />
+    <option name="width" value="709" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="Lab4" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="Lab4" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Lab4" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="Lab4" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Lab4" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Files" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Files" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Lab4" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="View.cs" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Lab4/bin/Debug/Lab4.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab4/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab4/Lab4.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bdb55ba-7dfb-49a2-b2ca-d111446c1360" name="Default Changelist" comment="" />
+      <created>1558715594908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558715594908</updated>
+      <workItem from="1558715596599" duration="5822000" />
+      <workItem from="1558783222976" duration="10537000" />
+      <workItem from="1558804443571" duration="4381000" />
+      <workItem from="1558808857481" duration="5495000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26235000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1633888" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45839638" visible="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39966834" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.49924356" weight="0.3283582" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" sideWeight="0.49924356" weight="0.3283582" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4969743" weight="0.3283582" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" sideWeight="0.49848714" weight="0.3283582" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5416036" side_tool="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.4591528" weight="0.3283582" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Designer Toolbox" order="3" side_tool="true" weight="0.10590015" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/RPKursach/src/Backend/ShowcaseRequests/Transport.cs" />
+    <entry file="file://$PROJECT_DIR$/Lab4/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1558715309464" expanded="true" signature="6:101" ph="..." />
+            <marker date="1558715309464" expanded="true" signature="103:272" ph="/* Общие сведения об этой сборке предоставляются следующим набором ... */" />
+            <marker date="1558715309464" expanded="true" signature="567:803" ph="/* Установка значения False для параметра ComVisible делает типы в этой сборке невидимыми ... */" />
+            <marker date="1558715309464" expanded="true" signature="993:1331" ph="/* Сведения о версии сборки состоят из указанных ниже четырех значений: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Form2.cs" />
+    <entry file="file://$PROJECT_DIR$/Lab4/Form2.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/Lab4/TextInput.cs" />
+    <entry file="file://$PROJECT_DIR$/Lab4/App.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Assets/AcceptCurrencies.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/24/448e75b1/Control.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="4586" column="35" selection-start-line="4586" selection-start-column="35" selection-end-line="4586" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Files/accept_currencies.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/View.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <marker date="1558808410326" expanded="true" signature="6:143" ph="..." />
+            <marker date="1558808410326" expanded="true" signature="159:1501" ph="{...}" />
+            <marker date="1558808410326" expanded="true" signature="184:1499" ph="{...}" />
+            <marker date="1558808410326" expanded="true" signature="199:285" ph="/// Обязательная переменная конструктора. ... " />
+            <marker date="1558808410326" expanded="true" signature="363:558" ph="/// Освободить все используемые ресурсы. ... " />
+            <marker date="1558808410326" expanded="true" signature="614:788" ph="{...}" />
+            <marker date="1558808410326" expanded="true" signature="675:741" ph="{...}" />
+            <marker date="1558808410326" expanded="true" signature="798:1493" ph="Код, автоматически созданный конструктором форм Windows" />
+            <marker date="1558808410326" expanded="true" signature="871:1040" ph="/// Требуемый метод для поддержки конструктора — не изменяйте  ... " />
+            <marker date="1558808410326" expanded="true" signature="1083:1473" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Store.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding>
+            <marker date="1558809608132" expanded="true" signature="14:230" ph="{...}" />
+            <marker date="1558809608132" expanded="true" signature="46:228" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Files/data_currencies.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <marker date="1558811004598" expanded="true" signature="6:41" ph="..." />
+            <marker date="1558811004598" expanded="true" signature="57:411" ph="{...}" />
+            <marker date="1558811004598" expanded="true" signature="84:409" ph="{...}" />
+            <marker date="1558811004598" expanded="true" signature="99:183" ph="/// Главная точка входа для приложения. ... " />
+            <marker date="1558811004598" expanded="true" signature="230:403" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Services/Transport.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="76" lean-forward="true" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+          <folding>
+            <marker date="1558808817806" expanded="false" signature="6:107" ph="..." />
+            <marker date="1558808817806" expanded="true" signature="132:709" ph="{...}" />
+            <marker date="1558808817806" expanded="true" signature="161:707" ph="{...}" />
+            <marker date="1558808817806" expanded="true" signature="419:701" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/InputForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <marker date="1558811700453" expanded="true" signature="6:80" ph="..." />
+            <marker date="1558811700453" expanded="true" signature="96:973" ph="{...}" />
+            <marker date="1558811700453" expanded="true" signature="132:971" ph="{...}" />
+            <marker date="1558811700453" expanded="true" signature="165:330" ph="{...}" />
+            <marker date="1558811700453" expanded="true" signature="399:797" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/View.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <marker date="1558813378761" expanded="true" signature="6:50" ph="..." />
+            <marker date="1558813378761" expanded="true" signature="66:1451" ph="{...}" />
+            <marker date="1558813378761" expanded="true" signature="110:1449" ph="{...}" />
+            <marker date="1558813378761" expanded="true" signature="227:338" ph="{...}" />
+            <marker date="1558813378761" expanded="true" signature="383:1132" ph="{...}" />
+            <marker date="1558813378761" expanded="true" signature="1169:1443" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="WinFormsEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Files/data_currencies.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/ViewController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="28" column="75" lean-forward="true" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+          <folding>
+            <marker date="1558814355846" expanded="true" signature="6:180" ph="..." />
+            <marker date="1558814355846" expanded="true" signature="196:2429" ph="{...}" />
+            <marker date="1558814355846" expanded="true" signature="230:2427" ph="{...}" />
+            <marker date="1558814355846" expanded="true" signature="352:1236" ph="{...}" />
+            <marker date="1558814355846" expanded="true" signature="699:1062" ph="{...}" />
+            <marker date="1558814355846" expanded="true" signature="819:1048" ph="{...}" />
+            <marker date="1558814355846" expanded="true" signature="1288:1555" ph="{...}" />
+            <marker date="1558814355846" expanded="true" signature="1638:1920" ph="{...}" />
+            <marker date="1558814355846" expanded="true" signature="1729:1823" ph="{...}" />
+            <marker date="1558814355846" expanded="true" signature="1996:2104" ph="{...}" />
+            <marker date="1558814355846" expanded="true" signature="2181:2290" ph="{...}" />
+            <marker date="1558814355846" expanded="true" signature="2373:2421" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
