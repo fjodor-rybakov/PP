@@ -104,9 +104,10 @@ namespace Lab4
                 watch.Stop();
                 elapsedMs.Add(watch.ElapsedMilliseconds);
             }
-            MessageBox.Show("Work sync: \n" +string.Join("\n", elapsedMs.Select(
+            /*MessageBox.Show("Work sync: \n" + string.Join("\n", elapsedMs.Select(
                 (time, index) => index + 1 + @": Work time: " + time + @"ms"))
-            );
+            );*/
+            MessageBox.Show("Work sync: \n" + elapsedMs.Sum(time => time) / Store.CountIteration);
             
             elapsedMs = new List<long>();
             for (var i = 0; i < Store.CountIteration; i++)
@@ -118,9 +119,10 @@ namespace Lab4
                 watch.Stop();
                 elapsedMs.Add(watch.ElapsedMilliseconds);
             }
-            MessageBox.Show("Work async: \n" + string.Join("\n", elapsedMs.Select(
+            /*MessageBox.Show("Work async: \n" + string.Join("\n", elapsedMs.Select(
                 (time, index) => index + 1 + @": Work time: " + time + @"ms"))
-            );
+            );*/
+            MessageBox.Show("Work async: \n" + elapsedMs.Sum(time => time) / Store.CountIteration);
         }
     }
 }
