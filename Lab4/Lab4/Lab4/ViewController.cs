@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -14,9 +15,34 @@ namespace Lab4
     {
         private readonly Transport _transport = new Transport();
         
-        private async Task GetAllValues()
+        private async Task GetAllValuesAsync()
         {
             var pathDataCurrencies = $"../../Files/{Store.OutputFileName}.txt";
+
+            var acceptCurrenciesTask = GetAcceptCurrencies();
+            var dataTask = _transport.GetCurrenciesData();
+            
+            await Task.WhenAll(acceptCurrenciesTask, dataTask);
+
+            var acceptCurrencies = await acceptCurrenciesTask;
+            var data = await dataTask;
+            var isFilter = acceptCurrencies != null;
+
+            using (var writer = new StreamWriter(pathDataCurrencies))
+            {
+                IDictionary<string, JToken> currencies = data.Valute;
+                foreach (var item in currencies)
+                {
+                    if (isFilter && !acceptCurrencies.Contains(item.Key)) continue;
+                    writer.WriteLineAsync($"{item.Value["Nominal"]} {item.Key} по курсу {item.Value["Value"]}");
+                }
+            }
+        }
+
+        private async Task GetAllValuesSync()
+        {
+            var pathDataCurrencies = $"../../Files/{Store.OutputFileName}.txt";
+            
             var acceptCurrencies = await GetAcceptCurrencies();
             var data = await _transport.GetCurrenciesData();
             var isFilter = acceptCurrencies != null;
@@ -27,7 +53,7 @@ namespace Lab4
                 foreach (var item in currencies)
                 {
                     if (isFilter && !acceptCurrencies.Contains(item.Key)) continue;
-                    await writer.WriteLineAsync($"{item.Value["Nominal"]} {item.Key} по курсу {item.Value["Value"]}");
+                    writer.WriteLine($"{item.Value["Nominal"]} {item.Key} по курсу {item.Value["Value"]}");
                 }
             }
         }
@@ -66,19 +92,33 @@ namespace Lab4
             Store.OutputFileName = value.Text;
         }
         
-        public async void OkButtonMouseClick(object sender, System.EventArgs e)
+        public async void OkButtonMouseClick(object sender, EventArgs e)
         {
             var elapsedMs = new List<long>();
             for (var i = 0; i < Store.CountIteration; i++)
             {
                 var watch = Stopwatch.StartNew();
 
-                await GetAllValues();
+                await GetAllValuesSync();
                 
                 watch.Stop();
                 elapsedMs.Add(watch.ElapsedMilliseconds);
             }
-            MessageBox.Show(string.Join("\n", elapsedMs.Select(
+            MessageBox.Show("Work sync: \n" +string.Join("\n", elapsedMs.Select(
+                (time, index) => index + 1 + @": Work time: " + time + @"ms"))
+            );
+            
+            elapsedMs = new List<long>();
+            for (var i = 0; i < Store.CountIteration; i++)
+            {
+                var watch = Stopwatch.StartNew();
+
+                await GetAllValuesAsync();
+                
+                watch.Stop();
+                elapsedMs.Add(watch.ElapsedMilliseconds);
+            }
+            MessageBox.Show("Work async: \n" + string.Join("\n", elapsedMs.Select(
                 (time, index) => index + 1 + @": Work time: " + time + @"ms"))
             );
         }
