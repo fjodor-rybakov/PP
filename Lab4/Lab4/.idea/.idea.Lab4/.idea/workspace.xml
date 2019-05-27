@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bdb55ba-7dfb-49a2-b2ca-d111446c1360" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab4/Files/data_currencies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/Files/data_currencies.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab4/ViewController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/ViewController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="0bdb55ba-7dfb-49a2-b2ca-d111446c1360" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab4/ViewController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="-57">
+              <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
               <folding>
                 <marker date="1558964186599" expanded="true" signature="6:263" ph="..." />
                 <marker date="1558964186599" expanded="true" signature="279:4755" ph="{...}" />
@@ -182,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="665" />
     <option name="width" value="709" />
     <option name="height" value="735" />
@@ -274,12 +268,12 @@
       <workItem from="1558854013804" duration="5627000" />
       <workItem from="1558860713071" duration="526000" />
       <workItem from="1558861301877" duration="133000" />
-      <workItem from="1558962659149" duration="1645000" />
+      <workItem from="1558962659149" duration="2230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37970000" />
+    <option name="totallyTimeSpent" value="38555000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -299,7 +293,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.45839638" visible="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45839638" weight="0.3283582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39966834" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1014,8 +1008,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab4/ViewController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="-57">
+          <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
           <folding>
             <marker date="1558964186599" expanded="true" signature="6:263" ph="..." />
             <marker date="1558964186599" expanded="true" signature="279:4755" ph="{...}" />
