@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Lab4.Services;
@@ -39,12 +40,12 @@ namespace Lab4
             }
         }
 
-        private async Task GetAllValuesSync()
+        private void GetAllValuesSync()
         {
             var pathDataCurrencies = $"../../Files/{Store.OutputFileName}.txt";
             
-            var acceptCurrencies = await GetAcceptCurrencies();
-            var data = await _transport.GetCurrenciesData();
+            var acceptCurrencies = GetAcceptCurrencies().Result;
+            var data = _transport.GetCurrenciesData().Result;
             var isFilter = acceptCurrencies != null;
 
             using (var writer = new StreamWriter(pathDataCurrencies))
@@ -99,7 +100,9 @@ namespace Lab4
             {
                 var watch = Stopwatch.StartNew();
 
-                await GetAllValuesSync();
+                var newThread = new Thread(GetAllValuesSync);
+                newThread.Start();
+                newThread.Join();
                 
                 watch.Stop();
                 elapsedMs.Add(watch.ElapsedMilliseconds);

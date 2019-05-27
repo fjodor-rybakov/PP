@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0bdb55ba-7dfb-49a2-b2ca-d111446c1360" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/Files/data_currencies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/Files/data_currencies.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab4/ViewController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/ViewController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/obj/Debug/Lab4.pdb" afterDir="false" />
@@ -35,29 +36,44 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab4/ViewController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="124" column="75" selection-start-line="124" selection-start-column="75" selection-end-line="124" selection-end-column="75" />
+            <state relative-caret-position="-119">
+              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
               <folding>
-                <marker date="1558860964495" expanded="true" signature="6:239" ph="..." />
-                <marker date="1558860964495" expanded="true" signature="255:4646" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="289:4644" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="416:1322" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="945:1312" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="1065:1298" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="1369:2106" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="1734:2096" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="1854:2082" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="2170:2569" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="2412:2559" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="2652:2934" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="2743:2837" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="3010:3118" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="3195:3304" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="3386:4638" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="3501:3727" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="3740:3907" ph="/* MessageBox.Show(&quot;Work sync: \n&quot; + string.Join(&quot;\n&quot;, elapsedMs.Select( ... */" />
-                <marker date="1558860964495" expanded="true" signature="4120:4347" ph="{...}" />
-                <marker date="1558860964495" expanded="true" signature="4360:4528" ph="/* MessageBox.Show(&quot;Work async: \n&quot; + string.Join(&quot;\n&quot;, elapsedMs.Select( ... */" />
+                <marker date="1558964186599" expanded="true" signature="6:263" ph="..." />
+                <marker date="1558964186599" expanded="true" signature="279:4755" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="313:4753" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="440:1346" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="969:1336" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="1089:1322" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="1387:2126" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="1754:2116" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="1874:2102" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="2190:2589" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="2432:2579" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="2672:2954" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="2763:2857" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="3030:3138" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="3215:3324" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="3406:4747" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="3521:3836" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="3849:4016" ph="/* MessageBox.Show(&quot;Work sync: \n&quot; + string.Join(&quot;\n&quot;, elapsedMs.Select( ... */" />
+                <marker date="1558964186599" expanded="true" signature="4229:4456" ph="{...}" />
+                <marker date="1558964186599" expanded="true" signature="4469:4637" ph="/* MessageBox.Show(&quot;Work async: \n&quot; + string.Join(&quot;\n&quot;, elapsedMs.Select( ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab4/Services/Transport.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding>
+                <marker date="1558808817806" expanded="false" signature="6:107" ph="..." />
+                <marker date="1558808817806" expanded="true" signature="132:709" ph="{...}" />
+                <marker date="1558808817806" expanded="true" signature="161:707" ph="{...}" />
+                <marker date="1558808817806" expanded="true" signature="419:701" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -177,6 +193,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -194,23 +211,7 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="Lab4" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="Lab4" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Lab4" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,12 +272,14 @@
       <workItem from="1558808857481" duration="5940000" />
       <workItem from="1558814804784" duration="3359000" />
       <workItem from="1558854013804" duration="5627000" />
-      <workItem from="1558860713071" duration="249000" />
+      <workItem from="1558860713071" duration="526000" />
+      <workItem from="1558861301877" duration="133000" />
+      <workItem from="1558962659149" duration="1645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35915000" />
+    <option name="totallyTimeSpent" value="37970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -291,7 +294,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17019667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17473525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -386,19 +389,6 @@
             <marker date="1558811004598" expanded="true" signature="84:409" ph="{...}" />
             <marker date="1558811004598" expanded="true" signature="99:183" ph="/// Главная точка входа для приложения. ... " />
             <marker date="1558811004598" expanded="true" signature="230:403" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4/Services/Transport.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <marker date="1558808817806" expanded="false" signature="6:107" ph="..." />
-            <marker date="1558808817806" expanded="true" signature="132:709" ph="{...}" />
-            <marker date="1558808817806" expanded="true" signature="161:707" ph="{...}" />
-            <marker date="1558808817806" expanded="true" signature="419:701" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -988,6 +978,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/Files/data_currencies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lab4/InputForm.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1002,38 +999,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4/Files/data_currencies.txt">
+    <entry file="file://$PROJECT_DIR$/Lab4/Services/Transport.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <marker date="1558808817806" expanded="false" signature="6:107" ph="..." />
+            <marker date="1558808817806" expanded="true" signature="132:709" ph="{...}" />
+            <marker date="1558808817806" expanded="true" signature="161:707" ph="{...}" />
+            <marker date="1558808817806" expanded="true" signature="419:701" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab4/ViewController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="124" column="75" selection-start-line="124" selection-start-column="75" selection-end-line="124" selection-end-column="75" />
+        <state relative-caret-position="-119">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
           <folding>
-            <marker date="1558860964495" expanded="true" signature="6:239" ph="..." />
-            <marker date="1558860964495" expanded="true" signature="255:4646" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="289:4644" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="416:1322" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="945:1312" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="1065:1298" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="1369:2106" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="1734:2096" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="1854:2082" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="2170:2569" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="2412:2559" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="2652:2934" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="2743:2837" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="3010:3118" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="3195:3304" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="3386:4638" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="3501:3727" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="3740:3907" ph="/* MessageBox.Show(&quot;Work sync: \n&quot; + string.Join(&quot;\n&quot;, elapsedMs.Select( ... */" />
-            <marker date="1558860964495" expanded="true" signature="4120:4347" ph="{...}" />
-            <marker date="1558860964495" expanded="true" signature="4360:4528" ph="/* MessageBox.Show(&quot;Work async: \n&quot; + string.Join(&quot;\n&quot;, elapsedMs.Select( ... */" />
+            <marker date="1558964186599" expanded="true" signature="6:263" ph="..." />
+            <marker date="1558964186599" expanded="true" signature="279:4755" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="313:4753" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="440:1346" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="969:1336" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="1089:1322" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="1387:2126" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="1754:2116" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="1874:2102" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="2190:2589" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="2432:2579" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="2672:2954" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="2763:2857" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="3030:3138" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="3215:3324" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="3406:4747" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="3521:3836" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="3849:4016" ph="/* MessageBox.Show(&quot;Work sync: \n&quot; + string.Join(&quot;\n&quot;, elapsedMs.Select( ... */" />
+            <marker date="1558964186599" expanded="true" signature="4229:4456" ph="{...}" />
+            <marker date="1558964186599" expanded="true" signature="4469:4637" ph="/* MessageBox.Show(&quot;Work async: \n&quot; + string.Join(&quot;\n&quot;, elapsedMs.Select( ... */" />
           </folding>
         </state>
       </provider>
